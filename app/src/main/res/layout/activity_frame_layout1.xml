@@ -9,24 +9,22 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-     android:background="@android:color/holo_blue_light"
-        />
-    
+        android:background="@android:color/holo_blue_light" />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@mipmap/ic_launcher"
-        />
+        android:src="@mipmap/ic_launcher" />
 
     <View
         android:layout_width="50dp"
         android:layout_height="match_parent"
-        android:background="@android:color/holo_orange_light"/>
+        android:background="@android:color/holo_orange_light" />
 
     <View
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_gravity="end"
-        android:background="@android:color/holo_orange_light"/>
+        android:background="@android:color/holo_orange_light" />
 
 </FrameLayout>

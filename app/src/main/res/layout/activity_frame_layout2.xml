@@ -2,21 +2,19 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_parent"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:id="@+id/frame_parent"
     tools:context=".FrameLayout2">
-    
+
     <View
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:background="#FFFF0000"
-        />
+        android:background="#FFFF0000" />
 
     <View
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="#FFFFFFFF"
-        />
-    
+        android:background="#FFFFFFFF" />
+
 </FrameLayout>
